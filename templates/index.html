@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cevahir-AI - Hoş Geldiniz</title>
+    <link rel="stylesheet" href="/static/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Genel Konteyner -->
+    <div class="container">
+        <!-- Başlık -->
+        <header>
+            <h1>Cevahir-AI</h1>
+            <p>Yapay zekanızla çalışmaya hazır mısınız?</p>
+        </header>
+
+        <!-- Ana İçerik -->
+        <main>
+            <!-- Hoş Geldiniz Mesajı -->
+            <div class="welcome-message">
+                <p>Farklı işlemleri başlatmak için aşağıdaki seçeneklerden birini seçin:</p>
+            </div>
+
+            <!-- Butonlar -->
+            <div class="button-group">
+                <div class="row">
+                    <!-- Model Başlat -->
+                    <form action="/api/model_routes/initialize" method="POST" target="_blank">
+                        <button type="submit" class="button">Modeli Başlat</button>
+                    </form>
+                    <!-- Model İleri Yayılım -->
+                    <form action="/api/model_routes/forward" method="POST" target="_blank">
+                        <button type="submit" class="button">Model İleri Yayılım</button>
+                    </form>
+                </div>
+                <div class="row">
+                    <!-- Modeli Kaydet -->
+                    <form action="/api/model_routes/save" method="POST" target="_blank">
+                        <button type="submit" class="button">Modeli Kaydet</button>
+                    </form>
+                    <!-- Modeli Yükle -->
+                    <form action="/api/model_routes/load" method="POST" target="_blank">
+                        <button type="submit" class="button">Modeli Yükle</button>
+                    </form>
+                </div>
+                <div class="row">
+                    <!-- Modeli Güncelle -->
+                    <form action="/api/model_routes/update" method="POST" target="_blank">
+                        <button type="submit" class="button">Modeli Güncelle</button>
+                    </form>
+                    <!-- Eğitim Başlat -->
+                    <form action="/api/training_routes/train_model" method="POST" target="_blank">
+                        <button type="submit" class="button">Eğitimi Başlat</button>
+                    </form>
+                </div>
+                <div class="row">
+                    <!-- Eğitim Durumu -->
+                    <form action="/api/training_routes/status" method="GET" target="_blank">
+                        <button type="submit" class="button">Eğitim Durumu</button>
+                    </form>
+                    <!-- Oyun Başlat -->
+                    <form action="/api/gameplay/play_game" method="POST" target="_blank">
+                        <button type="submit" class="button">Oyun Başlat</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Cevahir-AI. Tüm hakları saklıdır.</p>
+        </footer>
+    </div>
+</body>
+</html>

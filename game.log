@@ -1,0 +1,1 @@
+2024-12-31 03:02:58,899 - ERROR - Model yüklenirken hata: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /model/load (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020810641070>: Failed to establish a new connection: [WinError 10061] Hedef makine etkin olarak reddettiðinden baðlantý kurulamadý'))

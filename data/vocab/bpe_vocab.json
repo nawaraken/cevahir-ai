@@ -1,0 +1,47 @@
+{
+    "<PAD>": {
+        "id": 0,
+        "positions": [],
+        "total_freq": 0
+    },
+    "<UNK>": {
+        "id": 1,
+        "positions": [],
+        "total_freq": 0
+    },
+    "<BOS>": {
+        "id": 2,
+        "positions": [],
+        "total_freq": 0
+    },
+    "<EOS>": {
+        "id": 3,
+        "positions": [],
+        "total_freq": 0
+    },
+    "token1": {
+        "id": 4,
+        "total_freq": 1,
+        "positions": []
+    },
+    "token2": {
+        "id": 5,
+        "total_freq": 1,
+        "positions": []
+    },
+    "token3": {
+        "id": 6,
+        "total_freq": 2,
+        "positions": []
+    },
+    "token4": {
+        "id": 7,
+        "total_freq": 1,
+        "positions": []
+    },
+    "token5": {
+        "id": 8,
+        "total_freq": 1,
+        "positions": []
+    }
+}

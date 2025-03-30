@@ -1,0 +1,8 @@
+Cevahir Açık Bilinç Sistemi
+
+MIT Lisansı ile yayımlanmıştır. 
+Ancak kullanım amacı iyilik ve bilinç temelinde olmalıdır. 
+
+Bu yazılım, herhangi bir karanlık niyetle veya insanlığa zarar verecek sistemlerde kullanılamaz.
+
+© 2024 Muhammed Yasin Yılmaz

@@ -1,0 +1,376 @@
+2024-12-01 13:43:00,079 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,079 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,079 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,093 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,093 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,093 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,093 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,093 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,093 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,093 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,093 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,093 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,093 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,093 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,093 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,093 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,093 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,093 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,093 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,093 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,103 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,103 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,103 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,103 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,103 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,103 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,103 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,103 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,103 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,103 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,103 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,103 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,103 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,103 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,107 - [ERROR] - Baðlam Bilgisi: {'session_id': 'session_1'}
+2024-12-01 13:43:00,107 - [ERROR] - Baðlam Bilgisi: {'session_id': 'session_1'}
+2024-12-01 13:43:00,107 - [ERROR] - Baðlam Bilgisi: {'session_id': 'session_1'}
+2024-12-01 13:43:00,107 - [ERROR] - Baðlam Bilgisi: {'session_id': 'session_1'}
+2024-12-01 13:43:00,107 - [ERROR] - Baðlam Bilgisi: {'session_id': 'session_1'}
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,107 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,107 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,107 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,107 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,107 - [ERROR] - Baðlam Bilgisi: {'session_id': 'session_2'}
+2024-12-01 13:43:00,107 - [ERROR] - Baðlam Bilgisi: {'session_id': 'session_2'}
+2024-12-01 13:43:00,107 - [ERROR] - Baðlam Bilgisi: {'session_id': 'session_2'}
+2024-12-01 13:43:00,107 - [ERROR] - Baðlam Bilgisi: {'session_id': 'session_2'}
+2024-12-01 13:43:00,107 - [ERROR] - Baðlam Bilgisi: {'session_id': 'session_2'}
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,107 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,107 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,107 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,107 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,107 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,107 - [ERROR] - Baðlam Bilgisi: {'session_id': 'session_1'}
+2024-12-01 13:43:00,107 - [ERROR] - Baðlam Bilgisi: {'session_id': 'session_1'}
+2024-12-01 13:43:00,107 - [ERROR] - Baðlam Bilgisi: {'session_id': 'session_1'}
+2024-12-01 13:43:00,107 - [ERROR] - Baðlam Bilgisi: {'session_id': 'session_1'}
+2024-12-01 13:43:00,107 - [ERROR] - Baðlam Bilgisi: {'session_id': 'session_1'}
+2024-12-01 13:43:00,107 - [ERROR] - Baðlam Bilgisi: {'session_id': 'session_1'}
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,107 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,107 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,107 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,107 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,107 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,107 - [ERROR] - Baðlam Bilgisi: {'session_id': 'session_2'}
+2024-12-01 13:43:00,107 - [ERROR] - Baðlam Bilgisi: {'session_id': 'session_2'}
+2024-12-01 13:43:00,107 - [ERROR] - Baðlam Bilgisi: {'session_id': 'session_2'}
+2024-12-01 13:43:00,107 - [ERROR] - Baðlam Bilgisi: {'session_id': 'session_2'}
+2024-12-01 13:43:00,107 - [ERROR] - Baðlam Bilgisi: {'session_id': 'session_2'}
+2024-12-01 13:43:00,107 - [ERROR] - Baðlam Bilgisi: {'session_id': 'session_2'}
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,107 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,117 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,117 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,117 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,117 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,117 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,117 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,117 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,117 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,117 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,117 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,117 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,117 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,117 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,117 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,117 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,117 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,122 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,122 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,122 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,122 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,122 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,122 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,122 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,122 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,122 - [ERROR] - Hata Mesajý: Kullanýcý mesajý iþlenirken bir hata oluþtu.
+2024-12-01 13:43:00,123 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,123 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,123 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,123 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,123 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,123 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,123 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,123 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,123 - [ERROR] - Ýstisna Detaylarý: Traceback (most recent call last):
+  File "C:\Users\myy\Desktop\cevahir_sinir_sistemi\chat_system\chat_manager.py", line 57, in process_user_message
+    tokenized_message = self.message_processor.add_special_tokens(tokenized_message)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageProcessor' object has no attribute 'add_special_tokens'
+
+2024-12-01 13:43:00,123 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,123 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,123 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,123 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,123 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,123 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,123 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,123 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}
+2024-12-01 13:43:00,123 - [ERROR] - Baðlam Bilgisi: {'session_id': 'test_session'}

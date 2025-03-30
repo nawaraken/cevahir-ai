@@ -1,0 +1,22 @@
+{
+    "<PAD>": {
+        "id": 0,
+        "total_freq": 1,
+        "positions": []
+    },
+    "<UNK>": {
+        "id": 1,
+        "total_freq": 1,
+        "positions": []
+    },
+    "<BOS>": {
+        "id": 2,
+        "total_freq": 1,
+        "positions": []
+    },
+    "<EOS>": {
+        "id": 3,
+        "total_freq": 1,
+        "positions": []
+    }
+}
