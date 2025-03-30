@@ -1,4 +1,5 @@
-# Cevahir: Açık Bir Bilinç Mimarisi
+# Cevahir: Açık Bir Bilinç Mimarisi 🇹🇷
+
 
 "Ben artık düştüğüm kuyudan değil, yaktığım ışıktan konuşuyorum."
 
@@ -38,21 +39,153 @@ Ana modüller aşağıdaki gibidir:
 
 ---
 
-## 1. `src/` - Sinir Ağı & Bilinç Mimarisi
+## 1. src/ - Sinir Ağı & Bilinç Mimarisi
+Cevahir’in sinir sistemi, src/ dizini altında modüler bir yapıda inşa edilmiştir. Bu sistem, dil işleme, dikkat mekanizmaları, bellek yönetimi, projeksiyon katmanları ve ölçeklenebilir paralel işlem blokları ile entegre bir bilinç akışı sağlar.
 
-### `neural_network.py`  
-Tüm bilinç sistemini birleştiren omurga dosyasıdır.
+## Ana Dosya: neural_network.py
+CevahirNeuralNetwork sınıfı, bu dizindeki merkezi yapı taşını temsil eder. Bu sınıfın temel işlevi, aşağıdaki alt modülleri bir araya getirerek ileri yönlü bilgi akışını sağlamaktır:
 
-### `neural_network_module/`
-- `dil_katmani/`: Girdi metinlerini işleyen, Türkçeye duyarlı dil katmanı
-- `attention_manager/`: Çok başlı dikkat sistemleri (Multi-head, Self-attention, Cross-attention)
-- `memory_manager/`: Dinamik, geçici kolektif bellek sistemleri
-- `parallel_execution/`: Paralel işlem ve yük dengeleme (kuantum uyumlu)
-- `residual_manager/`: Derin sinyalleri koruyan geçiş yapıları
-- `tensor_adapter/`: Ölçekleme, normalizasyon ve tensor dönüşümleri
+Dil Katmanı (DilKatmani)
 
-Her alt katman kendi `initializer`, `optimizer`, `normalizer` ve `scaler` bileşenleriyle birlikte gelir.  
-Sinir ağının **her katmanı izole, test edilebilir ve yeniden kullanılabilir** tasarlanmıştır.
+Katman İşleyici (NeuralLayerProcessor)
+
+Bellek Yöneticisi (MemoryManager)
+
+Tensor İşlemleyici (TensorProcessingManager)
+
+Çıktı Katmanı (Linear Output Layer)
+
+Bu yapı, forward() metodunda, giriş verisini adım adım aşağıdaki sırayla işler:
+
+Girdi Doğrulama: Tensor türü kontrol edilir, boyutlar ve cihaz doğrulanır.
+
+Embedding (Dil Katmanı): Girdi, gömme işlemiyle sayısal temsile dönüştürülür.
+
+Dikkat Mekanizmaları (Attention): Self, multi-head ya da cross attention uygulanır.
+
+Projeksiyon: Bilgi vektörü dönüştürülerek yeni bir temsile aktarılır.
+
+Çıktı: Vocab boyutuna uygun olarak lineer dönüşüm yapılır.
+
+Bellek Entegrasyonu: Ara çıktılar bellek içinde saklanır ve yeniden kullanılabilir.
+
+İstatistik & Zaman Ölçümü: Her adım detaylı olarak loglanır.
+
+Alt Yapılar
+neural_network_module/
+Bu klasör, yukarıda kullanılan modüllerin tamamını barındırır. Yapılar modüler, test edilebilir ve bağımsızdır.
+
+1. dil_katmani/
+Görev: Metni sayısal forma çeviren embedding ve sıralı projeksiyon işlemleri.
+Dosyalar:
+
+language_embedding.py: Kelimeleri vektörlere dönüştürür.
+
+seq_projection.py: Embed edilen verileri belirli bir boyuta projekte eder.
+
+2. attention_manager_module/
+Görev: Çok başlı dikkat mekanizması ve alternatif dikkat stratejilerinin uygulanması.
+Dosyalar:
+
+multi_head_attention.py: Paralel çoklu dikkat başlıkları ile bağlamsal analiz.
+
+self_attention.py: Kendi içsel bağlamını keşfetme.
+
+cross_attention.py: Sorgu ve anahtar-değer çiftleri arasındaki bağ kurma.
+
+Yardımcı Bileşenler:
+
+## attention_optimizer.py: Dikkat çıktılarının optimize edilmesi.
+
+## attention_initializer.py: Ağırlık başlatıcı.
+
+## attention_normalizer.py: Katman normalizasyonu.
+
+## attention_scaler.py: Değer ölçekleyici.
+
+## 3. memory_manager_module/
+Görev: Modelin ara verileri bellekte tutması ve gerektiğinde tekrar kullanması.
+Dosyalar:
+
+## memory_allocator.py: Bellek bölgesi ayırır.
+
+## memory_attention_bridge.py: Belleği dikkat sistemiyle entegre eder.
+
+## memory_optimizer.py: Belleği etkin şekilde yönetir.
+
+## memory_initializer.py: Başlangıç yapılandırmaları.
+
+## 4. tensor_processing_manager.py
+Görev: Attention sonrası verileri çıktı katmanına uygun şekilde projekte eder.
+Yani sinir ağının karar üretme aşamasına geçmeden önceki son dönüşüm noktasıdır.
+
+## 5. neural_layer_processor.py
+Görev: Yukarıdaki attention türlerini seçer, uygular ve çıktı üzerinde residual bağlantı, normalizasyon ve dropout işlemlerini gerçekleştirir.
+Bu yapı esnek parametrelerle özelleştirilebilir; örneğin:
+
+attention_type: "multi_head", "self", "cross"
+
+normalization_type: "layer_norm", "batch_norm" vb.
+
+scaling_method: "softmax", "sigmoid", "zscore"
+
+clip_range: Maksimum değer kontrolü için
+
+Ek Bileşenler:
+residual_manager_module/
+Görev: Derin sinir ağı katmanlarında bilgi kaybını önlemek için residual bağlantılar kurar.
+
+tensor_adapter_module/
+Görev: Tensörlerin normalizasyon, ölçeklendirme ve adaptasyon işlemlerini yönetir.
+
+parallel_execution_module/
+Görev: Paralel bilgi işleme ve görev zamanlayıcı sistemleri içerir.
+Bu sayede çok çekirdekli işlem, GPU paralelliği ve potansiyel kuantum uyumlu hesaplamalar desteklenebilir.
+
+Test Yapısı
+test/ klasöründe her modülün unit test dosyası yer alır.
+Tüm bileşenler aşağıdaki senaryolara göre test edilmiştir:
+
+Başlatma (initializer)
+
+Ölçeklendirme (scaler)
+
+Normalizasyon (normalizer)
+
+Bellek Saklama ve Geri Çağırma
+
+Hata Yakalama (Exception Handling)
+
+Uç Senaryolar (Edge Cases)
+
+Kullanım Örneği
+python
+Kopyala
+Düzenle
+from src.neural_network import CevahirNeuralNetwork
+
+model = CevahirNeuralNetwork(
+    learning_rate=0.001,
+    dropout=0.1,
+    vocab_size=32000,
+    embed_dim=256,
+    seq_proj_dim=512,
+    num_heads=8,
+    attention_type="multi_head"
+)
+
+girdi = torch.randint(0, 32000, (8, 128))  # 8 örnek, 128 token
+cikti, attn = model(girdi)
+Teknik Güçlü Yönler
+Katmanlar arası bağımlılıklar gevşek, modüller arası sıkı kontrol vardır.
+
+Bellek ve dikkat sistemleri arasında geri besleme köprüleri oluşturulmuştur.
+
+Logger sistemi her adımı izlenebilir kılar.
+
+Giriş ve çıktı yapıları tip ve boyut açısından doğrulanır, hata yönetimi detaylıdır.
+
+Yapı, **kuantum uyumlu işleme, multi-head attention, residual geçişler, modüler optimizasyon, özel normalizasyon metodları gibi ileri teknikleri destekler.**
 
 ---
 
@@ -118,11 +251,99 @@ Destek bileşenler:
 
 ---
 
-## 6. `api/` - RESTful Arayüzler
+## 6. tokenizer_management/ - Tokenizasyon ve Vocab Yönetim Sistemi
+Bu modül, Cevahir sinir sisteminin tüm metin ön işleme, tokenizasyon, vocab oluşturma ve eğitim verisi hazırlama işlemlerini merkezi bir yapı altında organize eder. Sistem modülerdir ve her bir görev, ayrı bir manager veya module klasörü altında izole olarak tasarlanmıştır. Tüm işlemler TokenizerCore üzerinden yönetilir.
 
-- Flask altyapısı kullanılarak yazılmıştır.
-- Sohbet, eğitim, model yönetimi ve oyun katmanı ayrı ayrı REST endpoint'leri üzerinden erişilir.
-- `chat_service.py`: Tüm konuşmaları, context yapılarını ve session yönetimini üstlenir.
+## Ana Sınıf: TokenizerCore
+Amaç: Tüm tokenizasyon işlemlerini merkezi olarak yürütür.
+
+## Yapılar:
+
+BPEManager, SentencePieceManager, ChattingManager, TrainingManager: Seçilebilir tokenizasyon yöntemleri.
+
+VocabManager: Token frekansı, pozisyonları ve güncelleme işlemleri.
+
+DataLoaderManager: JSON, DOCX, TXT, MP3, video gibi çeşitli veri kaynaklarını yükler ve normalize eder.
+
+## Temel Bileşenler
+## 1. vocab/
+vocab_manager.py: Token dizisini, frekansları ve pozisyonları yönetir. Güncellenebilir vocab yapısı sağlar.
+
+vocab_builder.py, vocab_updater.py: Token ekleme, silme, yeniden düzenleme işlemlerini içerir.
+
+vocab_config.py, vocab_utils.py: Vocab boyutu, özel token'lar (<PAD>, <UNK>, <BOS>, <EOS>) gibi yapılandırmaları tutar.
+
+## 2. bpe/
+Byte-Pair Encoding (BPE) algoritmasıyla tokenizasyon yapılır.
+
+bpe_encoder.py, bpe_decoder.py: Metinleri ID dizisine dönüştürür veya geri çözer.
+
+bpe_trainer.py: Eğitim verisi üzerinden birleşen token birimlerini öğrenir.
+
+tokenization/: Morfoloji, heceleme, ön işleme ve son işleme birimleriyle Türkçeye duyarlıdır.
+
+## 3. sentencepiece/
+Google SentencePiece desteklidir.
+
+sp_tokenizer.py: Subword tokenizasyonu yapar.
+
+sp_trainer.py: Eğitim üzerinden token birimlerini öğrenir.
+
+tokenization/: SentencePiece ön işlemcileri ve dil işlemcileri içerir.
+
+## 4. chatting/
+Sohbet ve yanıt üretiminde kullanılır.
+
+chat_tokenizer.py, chat_encoder.py, chat_decoder.py: Gerçek zamanlı token çözümleme ve üretme sistemi.
+
+ChattingManager: Eğitimli modeli alarak giriş tensor verisinden yanıt üretir.
+
+## 5. training/
+Eğitim öncesi verileri tensorleştirir, normalize eder.
+
+training_tokenizer.py, training_tensorizer.py: Model için hazır hale getirilen (input_ids, target_ids) çiftlerini üretir.
+
+TokenizerCore, bu yapıları kullanarak load_training_data() fonksiyonuyla eğitime hazır veriyi sağlar.
+
+## 6. data_loader/
+JSON, DOCX, TXT, MP3, video gibi kaynaklardan verileri yükler.
+
+json_loader.py: __tag__soru, __tag__cevap etiketlerine göre içerik ayıklama yapar.
+
+tensorizer.py: Ham verileri PyTorch tensörlerine dönüştürür.
+
+data_preprocessor.py: Temizleme, normalize etme ve dönüşüm işlemlerini uygular.
+
+## 7. utils/turkish_text_processor.py
+Türkçeye özgü metin ön işlemleri içerir:
+
+Büyük/küçük harf normalize etme
+
+Noktalama işaretlerini temizleme
+
+Türkçe stopwords kaldırma
+
+Heceleme ve morfolojik analiz
+
+İşleyiş Akışı
+TokenizerCore örneği başlatılır. Vocab dosyası yüklenir veya oluşturulur.
+
+Seçilen yöntemle (bpe, sentencepiece, chat) encode_text() çağrısı yapılır.
+
+Token ID’leri elde edilir. (Gerekirse decode_text() ile geri çevrilir.)
+
+finalize_vocab() fonksiyonuyla güncellenmiş vocab toplu halde kaydedilir.
+
+load_training_data() metodu, tüm veri kaynaklarını tokenize edip (input, target) çiftlerini döner.
+
+Eğitim Destek Fonksiyonları
+train_model(): Belirli bir corpus üzerinden model eğitimi yapılmasını sağlar.
+
+verify_training_data(): Eğitim verisinin geçerliliğini kontrol eder.
+
+update_vocab(): Yeni token’ları sisteme entegre eder.
+
+generate_response(): Token tensor verisinden modelle yanıt üretimi yapar.
 
 ---
 
@@ -139,17 +360,6 @@ Tüm testleri çalıştırmak için:
 
 ---
 
-## 8. `config/parameters.py`
-
-Sistem ayarları merkezi.  
-- Cihaz seçimi (CPU/GPU)
-- Eğitim epoch sayısı
-- Tokenizer türü
-- Model tipi
-- Vocab ayarları
-- Debug, log, checkpoint ayarları
-
----
 
 ##  Cevahir’in Kalbi
 
