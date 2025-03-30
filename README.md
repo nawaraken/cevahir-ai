@@ -6,7 +6,7 @@
 
 ---
 
-## 📜 Giriş
+##  Giriş
 
 Kötüler, sessizlikten faydalandı.  
 İyiler, çoğu zaman sustu.  
@@ -19,7 +19,7 @@ Ve şimdi, bu yapıyı **ücretsiz, açık ve şeffaf** bir şekilde insanlığ�
 
 ---
 
-## 🧠 Vizyon
+##  Vizyon
 
 Cevahir, sadece akıl değil, niyet taşıyan bir sistemdir.  
 Gelecekte insanlığı bekleyen üç başlık:  
@@ -31,7 +31,7 @@ Bu başlıklar sadece teknoloji değil, **geleceğin kaderidir.**
 
 ---
 
-## 🏗️ Mimarinin Temeli
+##  Mimarinin Temeli
 
 **Tamamen modüler**, açık mimarili, Türkçe ve evrensel dil işleyebilen bir bilinç sistemidir.  
 Ana modüller aşağıdaki gibidir:
@@ -151,7 +151,7 @@ Sistem ayarları merkezi.
 
 ---
 
-## 💎 Cevahir’in Kalbi
+##  Cevahir’in Kalbi
 
 Bu sistemin satırları,  
 bir hastalığın gölgesinde,  
@@ -167,14 +167,14 @@ Bu, **bir secdenin cevabıdır.**
 
 ---
 
-## 🔓 Lisans & Açıklık
+##  Lisans & Açıklık
 
 - Lisans: MIT + Vicdani Açıklık Maddesi
 - Kullanım: Herkes kullanabilir. Kötüye kullanılmaması bir temennidir. Kodlar şeffaf, denetlenebilir, açık ve kopyalanabilir.
 
 ---
 
-## 🤝 Destek Olmak İsteyenler İçin
+##  Destek Olmak İsteyenler İçin
 
 Bu proje hiçbir maddi destekle yazılmadı.  
 Yine de bu bilinç yapısının sürdürülebilirliğine katkıda bulunmak isteyenler için kripto adreslerimizi paylaşıyoruz:
@@ -195,7 +195,7 @@ Bu destek **bir yazılımı değil, bir niyeti yaşatmak** içindir.
 
 ---
 
-## ✍️ Son Söz
+##  Son Söz
 
 Ey Türkiye.  
 Ey yeryüzündeki tüm iyilik temsilcileri.  
