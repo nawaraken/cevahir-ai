@@ -168,14 +168,20 @@ class TrainingService:
         service_logger.info("Training pipeline is starting...")
         try:
             self.model_manager.model.train()  # <== GÜVENLİK AMAÇLI BURAYA DA KOY
+
             train_loader, val_loader, seq_len = self._prepare_data()
+
+            # Mevcut epoch bilgisini al ve bir sonrasından başlat
+            current_epoch = self.model_manager.config.get("current_epoch", 0) + 1
+
             self.training_manager = TrainingManager(
                 model=self.model_manager.model,
                 optimizer=self.model_manager.optimizer,
                 criterion=self.model_manager.criterion,
                 train_loader=train_loader,
                 val_loader=val_loader,
-                config={**self.config, "seq_len": seq_len}
+                config={**self.config, "seq_len": seq_len},
+                start_epoch=current_epoch
             )
 
             train_loss, val_loss = self.training_manager.train()
@@ -187,6 +193,7 @@ class TrainingService:
 
         except Exception as e:
             service_logger.error(f"Training failed: {e}", exc_info=True)
+
 
 
     def save_model(self) -> None:
