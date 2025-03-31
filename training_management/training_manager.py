@@ -12,7 +12,7 @@ logger = TrainingLogger()
 
 
 class TrainingManager:
-    def __init__(self, model, train_loader, val_loader, optimizer, criterion, config):
+    def __init__(self, model, train_loader, val_loader, optimizer, criterion, config,start_epoch=1):
         """
         TrainingManager başlatma metodu.
 
@@ -25,7 +25,7 @@ class TrainingManager:
             config (dict): Model yapılandırma ayarları.
         """
         self.logger = TrainingLogger()
-
+        self.start_epoch = start_epoch
         # Yapılandırma ve cihaz
         self.config = config
         self.device = config.get("device", "cuda" if torch.cuda.is_available() else "cpu")
