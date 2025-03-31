@@ -158,32 +158,38 @@ class ModelManager:
 
 
 
-    def save(self, save_path=None, epoch=0):
+    def save(self, save_path=None, epoch=None):
         """
         Modelin ağırlıklarını, optimizer ve scheduler bilgilerini kaydeder.
 
         Args:
             save_path (str, optional): Modelin kaydedileceği dosya yolu. 
                                     Varsayılan olarak 'saved_models/test_models/cevahir_model.pth' kullanılır.
-            epoch (int, optional): Şu anki epoch bilgisi.
+            epoch (int, optional): Şu anki epoch bilgisi. Belirtilmezse config["current_epoch"] değeri kullanılır.
         """
         try:
             if save_path is None:
                 save_path = os.path.join(os.getcwd(), "saved_models/test_models/cevahir_model.pth")
 
+            if epoch is None:
+                epoch = self.config.get("current_epoch", 0)
+
+            # Epoch bilgisini config'e güncelle
+            self.config["current_epoch"] = epoch
+
             # Kaydetme dizinini oluştur
             os.makedirs(os.path.dirname(save_path), exist_ok=True)
 
-            # Tüm model durumunu kaydet
+            # Model durumunu kaydet
             torch.save({
                 'epoch': epoch,
                 'model_state_dict': self.model.state_dict(),
                 'optimizer_state_dict': self.optimizer.state_dict(),
                 'scheduler_state_dict': self.scheduler.state_dict(),
-                'config': self.config  # Yapılandırma bilgilerini de kaydedelim
+                'config': self.config
             }, save_path)
 
-            manager_logger.info(f"Model başarıyla kaydedildi: `{save_path}`")
+            manager_logger.info(f"Model başarıyla kaydedildi: `{save_path}` (epoch: {epoch})")
 
         except IOError as io_err:
             manager_logger.error(f"Model kaydetme sırasında IO hatası oluştu: {str(io_err)}", exc_info=True)
@@ -192,7 +198,6 @@ class ModelManager:
         except Exception as e:
             manager_logger.error(f"Model kaydetme sırasında hata oluştu: {str(e)}", exc_info=True)
             raise RuntimeError("Model kaydedilemedi.") from e
-
 
     def load(self, load_path=None):
         """
